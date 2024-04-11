@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <main>
+        <section class="your-order-section">
+            <div class="container">
+                <h2 class="your-order-title">
+                    Fresh <span class="your-order-title-harvest">Harvest</span> Box has got you covered
+                </h2>
+                <p class="your-order-text">
+                    Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!
+                </p>
+                <form class="your-order-form">
+                    <p class="form-text">
+                        Ordering <span class="form-text-from-us">from us</span> is quick and easy! Fill out <span class="form-text-the-form">the form</span> below and we will contact you !
+                    </p>
+                    <div class="form-field">
+                        <input type="text" name="user-name" class="form-input" placeholder="Full Name" required>
+                        <input type="email" name="user-email" class="form-input" placeholder="Email" required>
+                        <textarea name="user-comment" class="form-input form-textarea" placeholder="Comment" required></textarea>
+                    </div>
+                    <button type="submit" class="form-btn">Send</button>
+                </form>
+                <div class="thumb">
+                    <img srcset="./your-order-images/order-img-mob-2x.jpg 2x, ./your-order-images/-order-img-mob.jpg 1x"
+                    src="./your-order-images/order-img-mob.jpg" alt="A woman making a smoothie"
+                    class="your-order-img">
+                    <p class="social-networks-text">Follow us on our social networks:</p>
+                    <ul class="social-networks-list list">
+                    <li class="social-networks-item"><a class="social-networks-link link" href="https://www.instagram.com/goitclub/">instagram</a><span class="social-networks-link"> /</span></li>
+                    <li class="social-networks-item"><a class="social-networks-link link" href="https://www.facebook.com/goITclub/"> facebook</a><span class="social-networks-link"> /</span></li>
+                    <li class="social-networks-item"><a class="social-networks-link link" href="https://www.youtube.com/c/GoIT">youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

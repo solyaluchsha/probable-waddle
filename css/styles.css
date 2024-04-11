@@ -1,0 +1,192 @@
+body {
+    box-sizing: border-box;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.your-order-section {
+    background-color: #7a3145;
+    padding: 80px 20px;
+}
+
+.your-order-title {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 29px;
+    width: 100%;
+}
+
+.your-order-title-harvest {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.your-order-text {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.your-order-form {
+    background-color: #fbfbfb;
+    border-radius: 30px;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.form-text {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 40px;
+}
+
+.form-text-from-us {
+    color: #7a3145;
+}
+
+.form-text-the-form {
+    color: #576f35;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 30px;
+    padding: 14px 0px 14px 16px;
+    height: 46px;
+    width: 100%;
+}
+
+.form-input::placeholder {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+.form-textarea {
+    resize: none;
+    height: 91px;
+}
+
+.form-btn {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    background-color: #576f35;
+    border: none;
+    display: block;
+    border-radius: 30px;
+    width: 100%;
+    padding: 16px 0;
+}
+
+.thumb {
+    background-color: #576f35;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px;
+    border-radius: 30px;
+}
+
+.your-order-img {
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.social-networks-text {
+    font-family: "Inter Tight",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 14px;
+}
+
+.social-networks-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.social-networks-link {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
